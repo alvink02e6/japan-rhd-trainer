@@ -1,0 +1,28 @@
+{
+  "name": "japan-rhd-trainer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "台灣赴日自駕右駕認知與號誌演練工具 (Japan Right-Hand-Drive Pre-Trip Cognitive Trainer PWA)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "preact": "^10.25.4",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@preact/preset-vite": "^2.9.3",
+    "@types/three": "^0.172.0",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vite-plugin-pwa": "^0.21.1",
+    "vitest": "^3.0.5"
+  }
+}
